@@ -19,3 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/articulos', [ApiController::class, 'getNYT'])->name('articulos');
+
+Route::get('/serie', [ApiController::class, 'getEpisodio'])->name('serie');
+
+Route::get('/videos', ApiController::class, 'getYT')->name('videos');

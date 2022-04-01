@@ -31,6 +31,32 @@ class ApiController extends Controller
         return view('articulos', ['Articulos' => $Articulos]);
     }
 
+    /**
+     * Obtiene todos los videos de Harry Houdini
+     *
+     * @return view('videos', ['videos' => $videos]);
+     */
+
+    public function getYT(){
+        $client = new \GuzzleHttp\Client();
+        $response = $client->request('GET', 'https://www.googleapis.com/youtube/v3/search?q=Harry%Houdini&maxResults=12&key=AIzaSyAK6V1P5CFh56sTiW7qF2SLstutmtVmAcA');
+        $data = json_decode($response->getBody()->getContents(), true);
+
+        $Videos = [];
+
+        foreach ($data['items'] as $video){
+            $Videos[] = [
+                'video_id' => $video['id']['videoId'] //id del video
+            ];
+        }
+        return view('videos', ['Videos' => $Videos]);
+    }
+
+    /**
+     * Obtiene todos los episodios de The Master Mystery
+     *
+     * @return view('serie', ['episodios' => $episodios]);
+     */
 
     public function getSerie()
     {
