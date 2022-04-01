@@ -18,7 +18,16 @@
             <h2>Serie The Master Mystery</h2>
         </div>
         <div class="serie">
-
+            @foreach($episodios as $episodio)
+                <div class="episodio">
+                    <div class="episodio-video">
+                        <iframe src="{{$episodio['url']}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="episodio-info">
+                        <h3>{{$episodio['nombre']}} episodio {{$episodio['id']}}</h3>
+                    </div>
+                </div>
+            @endforeach
         </div>
     </div>
     </div>

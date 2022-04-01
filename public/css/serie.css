@@ -1,0 +1,48 @@
+body{
+    background: #242A18;
+}
+
+.content{
+    margin: 5%;
+}
+
+.title{
+    margin-bottom: 5%;
+}
+
+.serie{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    grid-gap: 20px;
+}
+
+.episodio{
+    width: 100%;
+}
+
+.episodio-video iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.episodio-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: #FFF4E3;
+}
+
+@media (max-width: 1000px){
+    .serie{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px){
+    .serie{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
