@@ -13,11 +13,11 @@ class Episodios extends Model
 
     protected $fillable = [
         'nombre',
-        'url'
+        'url',
     ];
 
     protected $hidden = [
         'created_at',
-        'updated_at'
+        'updated_at',
     ];
 }

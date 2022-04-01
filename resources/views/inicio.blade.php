@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <div class="header">
         @include('header')
     </div>
@@ -18,7 +17,7 @@
     <div class="info-table">
         <div class="container-all">
             <div class="image">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Houdini_in_Handcuffs%2C_1918.JPG" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Houdini_in_Handcuffs%2C_1918.JPG" alt="Houdini imagen">
             </div>
             <div class="subcontainer">
                 <div class="name">
@@ -27,16 +26,32 @@
                 <div class="personal-info">
                     <div class="table">
                         <div class="important">
-                            <div class="row">Nombre de Nacimiento</div>
-                            <div class="row">Apodo</div>
-                            <div class="row">Nacimiento</div>
-                            <div class="row">Fallecimiento</div>
-                            <div class="row">Causa de Muerte</div>
-                            <div class="row">Lengua Materna</div>
+                            <div class="row">
+                                Nombre de Nacimiento
+                            </div>
+                            <div class="row">
+                                Apodo
+                            </div>
+                            <div class="row">
+                                Nacimiento
+                            </div>
+                            <div class="row">
+                                Fallecimiento
+                            </div>
+                            <div class="row">
+                                Causa de Muerte
+                            </div>
+                            <div class="row">
+                                Lengua Materna
+                            </div>
                         </div>
                         <div class="column">
-                            <div class="row">Erich Weiss</div>
-                            <div class="row">El Gran Houdini</div>
+                            <div class="row">
+                                Erich Weiss
+                            </div>
+                            <div class="row">
+                                El Gran Houdini
+                            </div>
                             <div class="row">
                                 24 de marzo de 1874 <br>
                                 Budapest, Imperio Austro-Húngaro
@@ -46,8 +61,12 @@
                                 (52 años) <br>
                                 Detroit, Estados Unidos
                             </div>
-                            <div class="row">Peritonitis</div>
-                            <div class="row">Inglés</div>
+                            <div class="row">
+                                Peritonitis
+                            </div>
+                            <div class="row">
+                                Inglés
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,16 +74,17 @@
         </div>
     </div>
 
-    <div class="conteiner-media">
+    <div class="container-media">
         <div class="section">
             <b>Documentales</b>
         </div>
         <div class="videos">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/gDRgHh280Ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wZdYjThTHyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RUloZqWGo_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/xAytDYSzaO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
+
 </body>
 
 </html>

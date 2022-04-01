@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\ApiController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ApiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,10 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('inicio');
-});
+})->name('inicio');
 
 Route::get('/articulos', [ApiController::class, 'getNYT'])->name('articulos');
 
-Route::get('/serie', [ApiController::class, 'getEpisodio'])->name('serie');
+Route::get('/serie',[ApiController::class, 'getEpisodio'])->name('serie');
 
-Route::get('/videos', ApiController::class, 'getYT')->name('videos');
+Route::get('/videos', [ApiController::class, 'getYT'])->name('videos');

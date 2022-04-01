@@ -29,12 +29,12 @@
     color: #242A18;
     font-size: 20px;
     text-align: center;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0 20px 0;
 }
 
 .content .snippet{
     text-align: justify;
-    margin:  10px 0px 10px 0px;
+    margin: 10px 0 10px 0;
 }
 
 .content a{
@@ -46,16 +46,16 @@
     border-radius: 10px;
     border: solid 2px #8D685A;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    text-align: center;
     text-decoration: none;
-    color: #FF7300;
+    color: #ff7300;
     margin: 10px 0 10px 0;
 }
 
 .content a:hover{
-    background: #FF7300;
+    background: #ff7300;
     color: #242A18;
 }
 
@@ -64,7 +64,8 @@
     justify-content: center;
 }
 
+
 .content .lead{
     text-align: justify;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 30px 0;
 }

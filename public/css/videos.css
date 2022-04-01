@@ -8,9 +8,15 @@ body{
 
 .content .title{
     font-size: 25px;
-    color: #FFFFFF;
+    color: #fff;
     text-align: center;
     margin-bottom: 5%;
+}
+
+.content .videos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
 }
 
 .content .video{
@@ -35,7 +41,7 @@ body{
         font-size: 20px;
     }
 
-    .content .video{
+    .content .videos{
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -49,7 +55,7 @@ body{
         font-size: 18px;
     }
 
-    .content .video{
+    .content .videos{
         grid-template-columns: repeat(2, 1fr);
     }
 
