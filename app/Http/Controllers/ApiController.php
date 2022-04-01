@@ -49,6 +49,18 @@ class ApiController extends Controller
     public function getEpisodio()
     {
         $client = new \GuzzleHttp\Client();
-        $response = $client->request('GET', '');
+        $response = $client->request('GET', 'http://houdini-page.herokuapp.com/api/episodios');
+        $data = json_decode($response->getBody()->getContents(), true);
+
+        $Episodios = [];
+
+        foreach($data['episodios'] as $episodio){
+            $Episodios[] = [
+                'id' => $episodio['id'],
+                'nombre' => $episodio['nombre'],
+                'url' => $episodio['url'],
+            ];
+        }
+        return view('serie', ['Episodios' => $Episodios]);
     }
 }
