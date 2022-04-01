@@ -1,3 +1,9 @@
+GRUPO: 2522 IS <br>
+NOMBRE: EMMANUEL SANTOYO CHAGOLLA <br>
+LINK [ DOMINIO ]: https://houdini-page.herokuapp.com <br>
+LINK [ VIDEO PARTE 1 ]: 
+LINK [ VIDEO PARTE 2 ]: https://www.flexclip.com/share/12414104e70b2caa52cae84047f90d6b60806e3.html
+<hr>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
